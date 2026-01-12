@@ -179,3 +179,4 @@ Work logged on 29-Jul-2026 11:13 - added loading spinners and error messages
 Work logged on 30-Jul-2026 10:35 - initialized project structure
 Work logged on 30-Jul-2026 22:14 - tested API endpoints with dummy data
 Work logged on 11-Jan-2026 23:31 - handled null responses in student list
+Work logged on 12-Jan-2026 11:46 - preparing release build for Play Store testing
