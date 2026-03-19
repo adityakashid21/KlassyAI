@@ -226,3 +226,4 @@ Work logged on 13-Mar-2026 12:09 - preparing release build for Play Store testin
 Work logged on 14-Mar-2026 23:46 - integrated backend API for fees collection
 Work logged on 16-Mar-2026 14:53 - debugged token expiration in auth flow
 Work logged on 17-Mar-2026 09:28 - fixed layout overflow on small mobile screens
+Work logged on 19-Mar-2026 12:24 - updated app icon and splash screen
