@@ -239,3 +239,4 @@ Work logged on 09-Apr-2026 16:14 - handled null responses in student list
 Work logged on 10-Apr-2026 12:58 - initialized React Native project for KlassyAI
 Work logged on 10-Apr-2026 19:30 - added filtering for pending fee statuses
 Work logged on 11-Apr-2026 16:33 - preparing release build for Play Store testing
+Work logged on 12-Apr-2026 12:31 - updated app icon and splash screen
