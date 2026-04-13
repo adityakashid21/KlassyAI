@@ -241,3 +241,4 @@ Work logged on 10-Apr-2026 19:30 - added filtering for pending fee statuses
 Work logged on 11-Apr-2026 16:33 - preparing release build for Play Store testing
 Work logged on 12-Apr-2026 12:31 - updated app icon and splash screen
 Work logged on 13-Apr-2026 19:00 - designed UI for adding new tuition batches
+Work logged on 13-Apr-2026 21:09 - handled null responses in student list
