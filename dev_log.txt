@@ -243,3 +243,4 @@ Work logged on 12-Apr-2026 12:31 - updated app icon and splash screen
 Work logged on 13-Apr-2026 19:00 - designed UI for adding new tuition batches
 Work logged on 13-Apr-2026 21:09 - handled null responses in student list
 Work logged on 14-Apr-2026 22:15 - designed UI for adding new tuition batches
+Work logged on 16-Apr-2026 09:24 - refactored API calls for better performance
