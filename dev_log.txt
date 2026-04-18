@@ -245,3 +245,4 @@ Work logged on 13-Apr-2026 21:09 - handled null responses in student list
 Work logged on 14-Apr-2026 22:15 - designed UI for adding new tuition batches
 Work logged on 16-Apr-2026 09:24 - refactored API calls for better performance
 Work logged on 16-Apr-2026 15:40 - fixed layout overflow on small mobile screens
+Work logged on 18-Apr-2026 13:14 - WIP: offline caching for student records
