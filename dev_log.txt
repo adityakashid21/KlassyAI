@@ -263,3 +263,4 @@ Work logged on 05-May-2026 19:33 - fixed layout overflow on small mobile screens
 Work logged on 08-May-2026 16:44 - setup Play Integrity API for app security
 Work logged on 14-May-2026 10:17 - debugged token expiration in auth flow
 Work logged on 14-May-2026 15:41 - fixed layout overflow on small mobile screens
+Work logged on 14-May-2026 17:53 - refactored API calls for better performance
