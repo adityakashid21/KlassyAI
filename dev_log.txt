@@ -261,3 +261,4 @@ Work logged on 29-Apr-2026 23:27 - working on student attendance tracking UI
 Work logged on 04-May-2026 16:17 - integrated backend API for fees collection
 Work logged on 05-May-2026 19:33 - fixed layout overflow on small mobile screens
 Work logged on 08-May-2026 16:44 - setup Play Integrity API for app security
+Work logged on 14-May-2026 10:17 - debugged token expiration in auth flow
