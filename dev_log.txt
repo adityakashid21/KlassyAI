@@ -268,3 +268,4 @@ Work logged on 17-May-2026 11:10 - designed UI for adding new tuition batches
 Work logged on 17-May-2026 23:12 - created database schema for student batches
 Work logged on 18-May-2026 14:15 - preparing release build for Play Store testing
 Work logged on 18-May-2026 19:23 - designed UI for adding new tuition batches
+Work logged on 18-May-2026 20:58 - refactored API calls for better performance
