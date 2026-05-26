@@ -274,3 +274,4 @@ Work logged on 20-May-2026 15:43 - designed teacher and student login UI
 Work logged on 23-May-2026 09:54 - updated app icon and splash screen
 Work logged on 24-May-2026 15:01 - tested end-to-end fee payment flow
 Work logged on 24-May-2026 22:44 - created database schema for student batches
+Work logged on 26-May-2026 15:22 - debugged token expiration in auth flow
