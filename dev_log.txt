@@ -277,3 +277,4 @@ Work logged on 24-May-2026 22:44 - created database schema for student batches
 Work logged on 26-May-2026 15:22 - debugged token expiration in auth flow
 Work logged on 27-May-2026 22:05 - added filtering for pending fee statuses
 Work logged on 30-May-2026 23:29 - preparing release build for Play Store testing
+Work logged on 31-May-2026 19:05 - added push notifications for absent students
