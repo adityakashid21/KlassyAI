@@ -291,3 +291,4 @@ Work logged on 14-Jun-2026 22:30 - setup Play Integrity API for app security
 Work logged on 15-Jun-2026 11:04 - initialized React Native project for KlassyAI
 Work logged on 15-Jun-2026 14:20 - WIP: offline caching for student records
 Work logged on 16-Jun-2026 11:30 - fixed layout overflow on small mobile screens
+Work logged on 16-Jun-2026 15:06 - updated app icon and splash screen
