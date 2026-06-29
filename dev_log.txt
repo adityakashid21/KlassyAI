@@ -301,3 +301,4 @@ Work logged on 25-Jun-2026 16:20 - preparing release build for Play Store testin
 Work logged on 26-Jun-2026 10:37 - added filtering for pending fee statuses
 Work logged on 27-Jun-2026 15:30 - working on student attendance tracking UI
 Work logged on 29-Jun-2026 11:23 - setup React Navigation and folder structure
+Work logged on 29-Jun-2026 19:56 - added push notifications for absent students
