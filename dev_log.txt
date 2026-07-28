@@ -323,3 +323,4 @@ Work logged on 22-Jul-2026 16:37 - WIP: offline caching for student records
 Work logged on 24-Jul-2026 09:20 - integrated backend API for fees collection
 Work logged on 26-Jul-2026 15:59 - integrated backend API for fees collection
 Work logged on 26-Jul-2026 22:00 - added push notifications for absent students
+Work logged on 28-Jul-2026 16:32 - fixed state management for dashboard widgets
