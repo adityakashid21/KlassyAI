@@ -33,7 +33,7 @@
 - 👥 **Student Directory**: Comprehensive list of students with detailed profile metrics and academic history.
 - 📝 **Attendance & Marks Entry**: Quick tools for marking attendance, entering exam scores, and calculating class averages.
 - 📈 **Classroom Analytics**: Aggregate insight into overall class performance, attendance trends, and topic mastery.
-- 📑 **Syllabus & Course Tracking**: Track curriculum progress and mark completion milestones.
+- 📑 **Syllabus & Course Tracking**: Track curriculum progresses and mark completion milestones.
 - 📤 **Resource Sharing**: Upload and distribute study materials, assignments, and announcements.
 
 ### ⚡ Infrastructure & UX
