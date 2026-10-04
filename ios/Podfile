@@ -31,11 +31,11 @@ target 'KlassyAIApp' do
       # :ccache_enabled => true
     )
     installer.pods_project.targets.each do |target|
-      if target.name == 'fmt'
-        target.build_configurations.each do |config|
-          config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
-          config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'FMT_CONSTEVAL='
-        end
+      target.build_configurations.each do |config|
+        gcc_defs = config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] || ['$(inherited)']
+        gcc_defs = [gcc_defs] if gcc_defs.is_a?(String)
+        gcc_defs << 'FMT_CONSTEVAL=' unless gcc_defs.include?('FMT_CONSTEVAL=')
+        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] = gcc_defs
       end
     end
   end
