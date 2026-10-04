@@ -5,15 +5,19 @@
  * @format
  */
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import RootNavigator from './src/navigation/RootNavigator';
 import notifee, { EventType } from '@notifee/react-native';
 import FileViewer from 'react-native-file-viewer';
 
 import { NotificationService } from './src/services/notifications';
+import DevTestScreen from './src/screens/common/DevTestScreen';
 
 function App(): React.JSX.Element {
+  // Temporary flag to show dev test screen
+  const [showDevScreen, setShowDevScreen] = useState(__DEV__);
+
   useEffect(() => {
     // Initialize notification channels and permissions
     NotificationService.initialize();
@@ -51,7 +55,11 @@ function App(): React.JSX.Element {
 
   return (
     <SafeAreaProvider>
-      <RootNavigator />
+      {showDevScreen ? (
+        <DevTestScreen onDismiss={() => setShowDevScreen(false)} />
+      ) : (
+        <RootNavigator />
+      )}
     </SafeAreaProvider>
   );
 }
