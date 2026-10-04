@@ -30,13 +30,19 @@ target 'KlassyAIApp' do
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
-    installer.pods_project.targets.each do |target|
-      target.build_configurations.each do |config|
-        gcc_defs = config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] || ['$(inherited)']
-        gcc_defs = [gcc_defs] if gcc_defs.is_a?(String)
-        gcc_defs.delete('FMT_CONSTEVAL=')
-        gcc_defs << 'FMT_CONSTEVAL=constexpr' unless gcc_defs.include?('FMT_CONSTEVAL=constexpr')
-        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] = gcc_defs
+    # Xcode workaround: patch fmt to replace consteval with constexpr
+    fmt_dir = File.join(installer.sandbox.root, 'fmt', 'include', 'fmt')
+    if Dir.exist?(fmt_dir)
+      Dir.glob(File.join(fmt_dir, '**', '*.{h,cc}')).each do |file|
+        content = File.read(file)
+        if content.include?('consteval')
+          patched = content.gsub(/\bconsteval\b/, 'constexpr')
+          if patched != content
+            File.chmod(0644, file)
+            File.write(file, patched)
+            puts "Patched #{File.basename(file)} to replace consteval with constexpr"
+          end
+        end
       end
     end
   end
